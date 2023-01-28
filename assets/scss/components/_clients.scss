@@ -1,0 +1,36 @@
+.clients {
+    padding: 70px 0;
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
+
+    .logos {
+        padding-top: 50px;
+
+        .swiper-slide {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                right: -8%;
+                top: 30%;
+                content: '';
+                background: #e2e3e4;
+                height: 32px;
+                width: 2px;
+
+                @media(max-width:767px) {
+                    right: -20%;
+                }
+            }
+
+            .logo-card {
+                min-height: 62px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

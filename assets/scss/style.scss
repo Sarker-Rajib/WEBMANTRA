@@ -1,0 +1,32 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+/*===// end of layouts css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+@import 'components/banner';
+@import 'components/clients';
+@import 'components/service';
+@import 'components/blockchain-tech';
+@import 'components/design';
+@import 'components/successful-project';
+@import 'components/client-testimonial';
+@import 'components/why-webmantra';
+@import 'components/we-specialize';
+@import 'components/faq';
+/*===// end of components css === */

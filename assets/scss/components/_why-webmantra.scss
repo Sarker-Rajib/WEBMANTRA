@@ -1,0 +1,74 @@
+.why-webmantra {
+    margin: 70px 0;
+    background: url(../images/why-webmantra/bg-bg.png) no-repeat top center/cover;
+
+    .main {
+        color: #ffffff;
+
+        h3 {
+            font-weight: 200;
+            font-size: 75px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+
+            @media(max-width:767px) {
+                font-size: 50px;
+            }
+        }
+
+        h5 {
+            font-size: 50px;
+            font-weight: 700;
+            padding-bottom: 50px;
+
+            @media(max-width:767px) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            padding-bottom: 10px;
+
+            @media(max-width:767px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .item-card {
+        border: 2px solid #dcddde;
+        background: #ffffff;
+        padding: 25px;
+        height: 100%;
+
+        &.red {
+            background: #ff4141;
+            color: #ffffff;
+        }
+
+        &.green {
+            background: #00ce39;
+            color: #ffffff;
+        }
+
+        .image {
+            height: 75px;
+            width: 75px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            h4 {
+                font-size: 28px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}

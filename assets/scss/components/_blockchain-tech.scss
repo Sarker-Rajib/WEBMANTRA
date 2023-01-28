@@ -1,0 +1,64 @@
+.blockchain-tech {
+    padding: 70px 0;
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
+
+    .blockchain {
+        padding-top: 60px;
+
+        @media(max-width:767px) {
+            padding-top: 30px;
+        }
+
+        .swiper-slide {
+            position: relative;
+
+            .btech-card {
+                @media(max-width:767px) {
+                    padding-inline: 35px;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                right: -8%;
+                top: 30%;
+                content: '';
+                background: #e2e3e4;
+                height: 32px;
+                width: 2px;
+
+                @media(max-width:767px) {
+                    right: -20%;
+                }
+            }
+        }
+
+        .swiper {
+            .swiper-button-next {
+                .fa-long-arrow-right {
+                    font-size: 30px;
+                    color: #f78f1f;
+                }
+
+                &::after {
+                    display: none;
+                }
+            }
+
+
+            .swiper-button-prev {
+                .fa-long-arrow-left {
+                    font-size: 30px;
+                    color: #ff4141;
+                }
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}

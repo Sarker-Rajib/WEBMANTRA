@@ -1,0 +1,95 @@
+.service {
+    background: url(../images/service/service-bg.png) no-repeat center center/cover;
+    padding: 70px 0;
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
+
+    .cardogy {
+        padding: 60px 40px;
+
+        @media(max-width:767px) {
+            padding: 30px 0;
+        }
+    }
+
+    .card-wrapper {
+        display: flex;
+        align-items: center;
+        border: 2px solid #e6e7e8;
+        padding: 25px;
+        height: 100%;
+        border-radius: 22px;
+        background-color: #ffffff;
+        transition: 0.2s all;
+
+        &:hover {
+            border: 2px solid #ff4141;
+            background-color: #ffffff;
+            box-shadow: 0px 44px 81.9px 8.1px #0000001a;
+        }
+
+        @media(max-width:767px) {
+            padding: 20px;
+        }
+
+        .image {
+            width: 60px;
+            margin-right: 20px;
+        }
+
+        .text {
+            h3 {
+                font-size: 25px;
+                font-weight: 600;
+                color: #000000;
+
+                @media(max-width:767px) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+
+        @media(max-width:767px) {
+            flex-direction: column;
+        }
+    }
+
+    .WhatsApp {
+        border-radius: 36px;
+        background-color: rgb(65, 226, 94);
+        padding: 15px 20px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+
+        .fa-whatsapp {
+            font-size: 30px;
+            margin-right: 5px;
+        }
+    }
+
+    .Telegram {
+        border-radius: 36px;
+        background-color: #039be5;
+        padding: 15px 20px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+
+        .fa-telegram-plane {
+            font-size: 30px;
+            margin-right: 5px;
+        }
+    }
+}
